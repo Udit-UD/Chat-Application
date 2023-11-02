@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.messageContainer{
+    margin: 1em;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.messageBox{
+    padding: 1em;
+    font-size: 0.90rem;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.admin-messages{
+    background-color: rgb(50, 169, 163);
+}
+
+.messageText{
+    font-family: 'Open Sans', sans-serif;
+}
+.sentBox{
+    background-color: orange;
+}
+.justifyEnd {
+    justify-content: flex-end;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.sentText{
+    margin: 0.35em;
+    color: rgb(237, 233, 233);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.justifyStart {
+    justify-content: flex-start;
+}
